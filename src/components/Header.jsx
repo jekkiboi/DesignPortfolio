@@ -8,9 +8,9 @@ function Header() {
           <span className='inlineheader'>     
             <span className="headerlinks">
            
-              <Link to="/my-full-site" className='public-header'>Home</Link>
+              <Link to="/design" className='public-header'>Home</Link>
                 &nbsp;&nbsp;
-                <Link to="/about" className='public-header'>About</Link>
+                <Link to="/photo" className='public-header'>Photo</Link>
                 &nbsp;&nbsp;
                 <Link to="/contact" className='public-header'>Contact</Link>
                

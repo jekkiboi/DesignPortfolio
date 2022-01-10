@@ -123,9 +123,9 @@ color:rgba(84, 61, 61, 0.914)
   font-family: 'Helvetica';
   width: 100%;
    font-size: 2rem;
-   color: white;
+   /* color: white; */
    padding: 5px;
-   background: #f7f9f7aa;
+   /* background: #f7f9f7aa; */
  }
 
 
