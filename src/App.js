@@ -1,12 +1,13 @@
 import './App.css';
-import Header from './components/Header';
+import './Sub.css';
+import './Thumbnails.css';
 import Footer from './components/Footer';
 import Routes from './config/Routes'
 function App() {
   return (
     <div className="app-index">
         
-      <Header />
+
       <Routes/>
       <Footer/>
 
