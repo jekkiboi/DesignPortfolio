@@ -28,6 +28,11 @@
  
 
  /* Header Syling */
+ .thumbnail{
+  height: 1em;
+  width: 1em;
+  /* margin-bottom: 1%; */
+}
  .header {
   /* font-family: 'Helvetica'; */
   font-size: 2rem;
