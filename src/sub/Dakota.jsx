@@ -23,7 +23,7 @@ function Dakota(){
                 <div className='kitkatpicgroup'>
                 <h3 className='kitkatbody'>I shot Dakota in a variety of looks using multiple sets to flesh out Dakota's look book. Shot in 35mm Canon EOS 70D DSLR </h3>
                 &nbsp;
-                <img className='dakota3'src={`${process.env.PUBLIC_URL}/images/dakota2.jpg`} />
+                <img className='dakota3'src={`${process.env.PUBLIC_URL}/images/dokota9.jpg`} />
                 </div>
                 <img className='kitkatpic'src={`${process.env.PUBLIC_URL}/images/dakota1.jpg`} />
             </span>
