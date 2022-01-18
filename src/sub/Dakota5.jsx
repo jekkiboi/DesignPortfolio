@@ -12,14 +12,16 @@ function Dakota5(){
         <br />
         <br />
         <br />
-        <Link to="/dakota" className='public-header'>
-        <img className='back'src={`${process.env.PUBLIC_URL}/images/back.png`} alt="home"/>
-        </Link>
-        <br />
-        <br />
-        <br />
-        <br />
         <img className='bigdakota5'src={`${process.env.PUBLIC_URL}/images/dakota5.jpg`} alt="dakota5"/>
+        <br />
+        <h1 className='undertitle'>Model: Dakota Johnson <br />
+            December 2021 <br />
+            Livermore CA
+        </h1>
+        <br />
+        <br />
+        <br />
+        <br />
         </header>
    
     

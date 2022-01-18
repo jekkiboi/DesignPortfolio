@@ -23,7 +23,9 @@ function Dakota(){
                 <div className='kitkatpicgroup'>
                 <h3 className='kitkatbody'>I shot Dakota in a variety of looks using multiple sets to flesh out Dakota's look book. Shot in 35mm Canon EOS 70D DSLR </h3>
                 &nbsp;
+                <Link to="/dakota9" className='dakotas'>
                 <img className='dakota3'src={`${process.env.PUBLIC_URL}/images/dokota9.jpg`} />
+                </Link>
                 </div>
                 <img className='kitkatpic'src={`${process.env.PUBLIC_URL}/images/dakota1.jpg`} />
             </span>
@@ -47,11 +49,9 @@ function Dakota(){
                 </Link>
                 </span>
                 <span className='inlineDakota2'>
-                <Link to="/dakota9" className='dakotas'>
-                <img className='dakota9'src={`${process.env.PUBLIC_URL}/images/dakota9.jpg`} alt="dakota9"/>
-                </Link>
+
                 <Link to="/dakota8" className='dakotas'>
-                <img className='dakota8'src={`${process.env.PUBLIC_URL}/images/dakota8.jpg`} alt="dakota7"/>
+                <img className='dakota8'src={`${process.env.PUBLIC_URL}/images/dakota8.jpg`} alt="dakota8"/>
                 </Link>
                 </span>
         </div>

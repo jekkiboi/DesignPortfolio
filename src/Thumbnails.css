@@ -1,5 +1,7 @@
 .container{
-display:grid
+display:grid;
+width: 100%;
+padding: 10px;
 }
 
 /* All Gallery styling */
@@ -9,13 +11,16 @@ display:grid
     grid-column-end: two;
     grid-row: 1 / 2
 }
+.gif1{
+    height: 20vh;
+}
 .item-b{
     grid-column-start: 2;
     grid-column-end: three;
     grid-row: 1 / 2
 }
 .split{
-    width: 26em;
+    height: 50vh;
 }
 .item-c{
     grid-column: 3 / 4;
@@ -111,6 +116,7 @@ display:grid
 }
 .kitkatpic{
     width: 40em;
+    padding: 8px;
 }
 .kitkattitle{
     font-size: 4em;
@@ -173,9 +179,14 @@ display:grid
 }
 .bigdakota5{
     display: flex;
-    width: 82em;
+    width: 50vh;
     margin: 0 auto; 
 }
+@media (max-width: 896px){ 
+    .bigdakota5 {
+        width:396px;
+    }
+  }
 .dakota8{
     display: flex;
     width: 52em;
@@ -185,4 +196,29 @@ display:grid
     display: flex;
     width: 82em;
     margin: 0 auto; 
+}
+
+/* single photo page styling */
+.undertitle{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2vh;
+}
+
+/* claude 9 */
+.c9thumbnail{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto; 
+}
+
+.claudebody{
+    padding:2em;
+    margin-top: -1.5em;
+    width: 20em;
+}
+.claudepic{
+    width: 20em;
+    padding: 8px;
+    margin-top: -6em;
 }

@@ -10,14 +10,14 @@ import Art from '../pages/Art';
 import Kitkat from '../sub/Kitkat';
 import Dakota from '../sub/Dakota';
 import Dakota5 from '../sub/Dakota5';
+import Dakota6 from '../sub/Dakota6';
+import Dakota7 from '../sub/Dakota7';
+import Dakota8 from '../sub/Dakota8';
+import Claude9 from '../sub/Claude9';
 // import About from '../pages/About';
-// import Hscredit from '../pages/Hscredit';
-// import Lizzie from '../pages/Lizzie';
-// import Tamagotchi from '../pages/Tamagotchi';
 // import Contact from '../pages/Contact';
 
 function Routes(props){
-  
     return(
      <Switch>
         <Route exact path='/' component={Homepage}/>
@@ -27,11 +27,16 @@ function Routes(props){
         <Route exact path='/allworks' component={AllWorks} />
         {/* sub */}
         <Route exact path='/kitkat' component={Kitkat} />
+        <Route exact path='/claude9' component={Claude9} />
+
+
+
         <Route exact path='/dakota' component={Dakota} />
         <Route exact path='/dakota5' component={Dakota5} />
+        <Route exact path='/dakota6' component={Dakota6} />
+        <Route exact path='/dakota7' component={Dakota7} />
+        <Route exact path='/dakota8' component={Dakota8} />
       </Switch>
-
     )
 }
-
 export default Routes;
